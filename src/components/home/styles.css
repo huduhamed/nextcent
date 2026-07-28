@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  width: 100%;
+  min-height: 60vh;
+  margin-top: -15px;
+  padding: 40px 120px;
+  background-color: var(--background-gray);
+  box-sizing: border-box;
+}
+
+/*Hero Text*/
+.section-head {
+  margin: 0;
+  color: #4d4d4d;
+
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0;
+}
+
+.hero .highlight {
+  display: block;
+  color: #4caf50;
+}
+
+.description {
+  margin-top: 16px;
+  color: #717171;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+/* Register Button*/
+
+.registered {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #43a046;
+  color: white;
+  cursor: pointer;
+}
+
+/*Slider Dots*/
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.dot img {
+  width: 7px;
+  height: 7px;
+  object-fit: contain;
+}
+
+.dot-btn {
+  border: none;
+  background-color: var(--background-gray);
+  cursor: pointer;
+}
+
+/* Hero Image */
+
+.hero-image {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-top: -300px;
+  padding-right: 80px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 300px;
+  height: 350px;
+  object-fit: contain;
+}
+
+/*Tablet Responsive Design*/
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    order: 1;
+  }
+
+  .hero-image {
+    order: 2;
+    justify-content: center;
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .hero-image img {
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .section-head {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Responsive Design*/
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 30px 15px;
+  }
+
+  .section-head {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .registered {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+/* laptop and desktop */
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 40px 60px;
+    gap: 40px;
+  }
+
+  .section-head {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .hero-image img {
+    max-width: 280px;
+    height: auto;
+  }
+}

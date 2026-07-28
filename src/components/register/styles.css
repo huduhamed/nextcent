@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+.register-form {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.form {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  width: 250px;
+  padding: 10px;
+}
+
+.form button {
+  width: 100px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/*gender div*/
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gender label {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start !important;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
+}
+
+.gender input {
+  margin: 0;
+  order: -1;
+  margin-left: -80px;
+}
+
+.gender p {
+  margin: 0;
+}

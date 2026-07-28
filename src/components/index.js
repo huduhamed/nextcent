@@ -1,0 +1,41 @@
+//components
+export { default as Home } from "./home";
+export { default as Features } from "./features";
+export { default as Community } from "./community";
+export { default as Blog } from "./blog";
+export { default as Pricing } from "./pricing";
+export { default as Register } from "./register";
+export { default as Navbar } from "./navbar";
+export { default as Footer } from "./footer";
+
+//images
+export { default as Vector } from "../images/icons/Vector.png";
+export { default as Icon } from "../images/icons/Icon.png";
+export { default as Icon1 } from "../images/icons/Icon1.png";
+export { default as Icon2 } from "../images/icons/Icon2.png";
+export { default as Logo } from "../images/Logo.png";
+export { default as Logo1 } from "../images/Logo1.png";
+export { default as Logo2 } from "../images/Logo2.png";
+export { default as Logo3 } from "../images/Logo3.png";
+export { default as Logo4 } from "../images/Logo4.png";
+export { default as Logo5 } from "../images/Logo5.png";
+export { default as Rafiki } from "../images/rafiki.png";
+export { default as Members } from "../images/mem1.png";
+export { default as Clubs } from "../images/mem2.png";
+export { default as Event } from "../images/mem3.png";
+export { default as Payments } from "../images/mem4.png";
+export { default as Pana } from "../images/pana.png";
+export { default as Illustration } from "../images/Illustration.png";
+export { default as Ellipse5 } from "../images/Ellipse5.png";
+export { default as Ellipse6 } from "../images/Ellipse6.png";
+export { default as Ellipse7 } from "../images/Ellipse7.png";
+export { default as Tesla } from "../images/Tesla.png";
+export { default as Image } from "../images/image18.png";
+export { default as Image19 } from "../images/image19.png";
+export { default as Image20 } from "../images/image20.png";
+export { default as Header } from "../images/header.png";
+export { default as SocialIcon } from "../images/icons/Social Icons.png";
+export { default as SocialIcon1 } from "../images/icons/Social Icons1.png";
+export { default as SocialIcon2 } from "../images/icons/Social Icons2.png";
+export { default as SocialIcon3 } from "../images/icons/Social Icons3.png";
+export { default as InputIcon } from "../images/icons/InputIcon.png";
