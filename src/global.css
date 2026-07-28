@@ -1,16 +1,16 @@
-@import url("https://googleapis.com");
+@import url('https://googleapis.com');
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 :root {
-  --green-primary: #4caf4f;
-  --backgroung-gray: #f5f7fa;
+	--green-primary: #4caf4f;
+	--backgroung-gray: #f5f7fa;
 }
 
 body {
-  font-family: "inter", sans-serif;
-  max-width: 1400px;
-  margin: 0 auto;
+	font-family: 'inter', sans-serif;
+	max-width: 1400px !important;
+	margin: 0 auto !important;
 }
