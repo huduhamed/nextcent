@@ -1,0 +1,73 @@
+.achievement {
+  min-height: 30vh;
+  padding: 20px 80px;
+  background-color: var(--background-gray);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.local {
+  align-items: center;
+  margin: auto 5px;
+  color: var(--font-head);
+}
+
+.local-p {
+  margin-top: -10px;
+  color: var(--font-head);
+  font-weight: 600;
+  font-size: 25.06px;
+  line-height: 30.63px;
+  width: 283.99px;
+  height: 62px;
+}
+
+.local-span {
+  display: block;
+  color: var(--green-primary);
+}
+
+.dedi {
+  margin-top: -20px;
+  font-weight: 400;
+  color: #18191f;
+  font-style: Regular;
+  font-size: 11.14px;
+  line-height: 16.71px;
+}
+
+.count {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.row1 img {
+  width: 33.41px;
+  height: 33.41px;
+}
+
+.members {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+
+.members p {
+  font-size: 19.47px;
+  font-weight: 700;
+  margin: 2px 0;
+  color: var(--font-head);
+}
+
+.members span {
+  font-size: 11.14px;
+  color: var(--font-gray);
+}

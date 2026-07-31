@@ -12,10 +12,10 @@ export default function Navbar() {
 
   return (
     <div className="header">
-      <h1 className="head">
+      <h2 className="head">
         <img src={headImage} alt="nav-logo" />
         Nextcent
-      </h1>
+      </h2>
 
       <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
         ☰

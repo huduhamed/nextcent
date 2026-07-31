@@ -18,13 +18,13 @@ function Home() {
 
       <div className="dot">
         <button className="dot-btn">
-          <img src={Ellipse5} alt="dot-one" className="dot-img" />
+          <img src={Ellipse5} alt="dot-one" />
         </button>
         <button className="dot-btn">
-          <img src={Ellipse6} className="dot-img" />
+          <img src={Ellipse6} />
         </button>
         <button className="dot-btn">
-          <img src={Ellipse7} className="dot-img" />
+          <img src={Ellipse7} />
         </button>
       </div>
       <div className="hero-image">

@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 .footer {
   display: flex;
   align-items: left;
@@ -20,73 +16,48 @@ body {
 .next img {
   width: 30.11px;
   height: 20.65px;
-  opacity: 1;
 }
 
 .copyright {
   width: 243.62px;
   height: 14px;
-  opacity: 0.8;
   color: white;
-
   font-weight: 400;
-  font-style: Regular;
   font-size: 9.74px;
   line-height: 13.92px;
-  letter-spacing: 0%;
   margin-left: 170px;
   margin-top: -150px;
 }
 
 .all-right {
   font-weight: 400;
-  font-style: Regular;
   font-size: 9.74px;
   width: 243.62px;
   height: 14px;
-  opacity: 0.8;
   margin-left: 170px;
   margin-top: -10px;
   line-height: 13.92px;
-  letter-spacing: 0%;
   color: white;
 }
 
 .socials {
   margin-left: 170px;
   margin-top: 30px;
+  width: 350px;
+  display: flex;
+  gap: 8px;
 }
 
-.insta {
+.socials img {
   width: 22.27px;
   height: 22.27px;
-  opacity: 1;
-  display: inline-block;
   cursor: pointer;
 }
 
-.social {
-  width: 22.27px;
-  height: 22.27px;
-  opacity: 1;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.twitter {
-  width: 22.27px;
-  height: 22.27px;
-  opacity: 1;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.youtube {
-  width: 22.27px;
-  height: 22.27px;
-  opacity: 1;
-  display: inline-block;
-  cursor: pointer;
+.socials img:hover {
+  transform: scale(1.05) translateY(-5px);
+  background-color: var(--green-primary);
+  border-radius: 12px;
 }
 
 .links {
@@ -100,9 +71,8 @@ body {
 
 .company h4 {
   margin-bottom: 10px;
-
   font-weight: 600;
-  font-style: Semi Bold;
+  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
   letter-spacing: 0%;
@@ -113,7 +83,6 @@ body {
 
 .company p {
   margin: 4px 0;
-
   font-weight: 400;
   font-style: Regular;
   font-size: 9.74px;
@@ -126,9 +95,8 @@ body {
 
 .support h4 {
   margin-bottom: 10px;
-
   font-weight: 600;
-  font-style: Semi Bold;
+  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
   letter-spacing: 0%;
@@ -139,13 +107,12 @@ body {
 
 .support p {
   margin: 4px 0;
-
   font-weight: 400;
   font-style: Regular;
   font-size: 9.74px;
   line-height: 13.92px;
   letter-spacing: 0%;
-  width: 111.3711166381836;
+  width: 111.37px;
   height: 14px;
   opacity: 1;
 }
@@ -162,6 +129,7 @@ body {
 }
 
 /*input container*/
+
 .input-container {
   position: relative;
   display: inline-block;
@@ -177,7 +145,6 @@ body {
   width: 177.49px;
   height: 27.84px;
   color: #fff;
-
   opacity: 1;
   border-radius: 5.57px;
 }
