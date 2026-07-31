@@ -15,7 +15,7 @@ function Register() {
   return (
     <>
       <div className="register-form">
-        <h1>Kindly fill out this form to get register to our site.</h1>
+        <h2>Kindly fill out this form to get registered on our site.</h2>
 
         <form className="form">
           <fieldset>

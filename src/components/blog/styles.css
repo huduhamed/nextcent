@@ -1,1 +1,59 @@
-/* cant find the css for blog*/
+.calendar {
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.calendar img {
+  width: 307.33px;
+  height: 301.67px;
+  opacity: 1;
+  margin-left: -120px;
+  margin-top: -70px;
+}
+
+.cal {
+  display: flex;
+  margin-left: 70px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.like {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25.06px;
+  line-height: 30.63px;
+  letter-spacing: 0%;
+  width: 418.33px;
+  height: 62;
+  margin-top: -40px;
+}
+
+.justo {
+  font-weight: 400;
+  font-style: regular;
+  font-size: 9.74px;
+  width: 418.34px;
+  height: 84px;
+  color: var(--font-gray);
+  margin-top: -10px;
+  line-height: 13.92px;
+  letter-spacing: 0%;
+}
+
+.learn1 {
+  height: 36.49px;
+  box-sizing: border-box;
+  border: none;
+  background-color: var(--green-primary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: -300px;
+}

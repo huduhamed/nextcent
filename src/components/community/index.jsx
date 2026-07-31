@@ -21,38 +21,34 @@ function Community() {
         <div className="count">
           <div className="row1">
             <img src={Members} alt="numbers of the members" />
-            <p className="members">
-              2,245,341
-              <span className="member-s">
-                <label htmlFor="members">Members</label>
-              </span>
-            </p>
-
-            <img src={Clubs} alt="numbers of the members" />
-            <p className="clubs">
-              46,328
-              <span className="club-s">
-                <label htmlFor="clubs">Clubs</label>
-              </span>
-            </p>
+            <div className="members">
+              <p>2,245,341 </p>
+              <span>Members</span>
+            </div>
           </div>
 
-          <div className="row2">
-            <img src={Event} alt="numbers of the members" />
-            <p className="event">
-              828,867
-              <span className="event-s">
-                <label htmlFor="event">Event Bookings</label>
-              </span>
-            </p>
+          <div className="row1">
+            <img src={Clubs} alt="numbers of the members" />
+            <div className="members">
+              <p>2,245,341 </p>
+              <span>Clubs</span>
+            </div>
+          </div>
 
+          <div className="row1">
+            <img src={Event} alt="numbers of the members" />
+            <div className="members">
+              <p>2,245,341 </p>
+              <span>Event</span>
+            </div>
+          </div>
+
+          <div className="row1">
             <img src={Payments} alt="numbers of the members" />
-            <p className="payments">
-              1,926,436
-              <span className="payment-s">
-                <label htmlFor="payments">Payments</label>
-              </span>
-            </p>
+            <div className="members">
+              <p>2,245,341 </p>
+              <span>Payments</span>
+            </div>
           </div>
         </div>
       </div>

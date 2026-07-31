@@ -1,12 +1,13 @@
-body {
-  margin: 0;
-}
-
 .register-form {
   display: flex;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  color: var(--font-head);
+}
+
+.register-form h2 {
+  color: var(--font-head);
 }
 
 fieldset {
@@ -44,6 +45,10 @@ input {
   padding: 10px;
   cursor: pointer;
   font-weight: 600;
+  background-color: var(--green-primary);
+  color: white;
+  border: none;
+  border-radius: 2.78px;
 }
 
 /*gender div*/

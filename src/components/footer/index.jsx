@@ -15,21 +15,27 @@ function Footer() {
   return (
     <>
       <div className="footer">
-        <h1 className="next">
+        <h2 className="next">
           <img src={Header} alt="favicon" />
           Nextcent
-        </h1>
+        </h2>
       </div>
-
       <p className="copyright">Copyright © 2020 Landify UI Kit.</p>
-
       <p className="all-right">All rights reserved</p>
 
       <div className="socials">
-        <img src={SocialIcon} alt="instagram icon" className="insta" />
-        <img src={SocialIcon1} alt="social icons" className="social" />
-        <img src={SocialIcon2} alt="twitter icon" className="twitter" />
-        <img src={SocialIcon3} alt="youtube icon" className="youtube" />
+        <a href="https://instagram.com" aria-label="instagram">
+          <img src={SocialIcon} alt="instagram icon" />
+        </a>
+        <a href="https://facebook.com" aria-label="facebook">
+          <img src={SocialIcon1} alt="social icons" />
+        </a>
+        <a href="https://X.com" aria-label="X">
+          <img src={SocialIcon2} alt="twitter icon" />
+        </a>
+        <a href="https://youtube.com" aria-label="youtube">
+          <img src={SocialIcon3} alt="youtube icon" />
+        </a>
       </div>
 
       <div className="links">

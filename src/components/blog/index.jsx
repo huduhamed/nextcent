@@ -10,13 +10,12 @@ function Blog() {
       <div className="calendar">
         <img src={Pana} alt="a woman touching computer screen" />
 
-        <div>
-          <h2 className="d2">
-            How to design your site footer like{" "}
-            <span className="d2-span">we did</span>
+        <div className="cal">
+          <h2 className="like">
+            How to design your site footer like <br />
+            we did
           </h2>
-
-          <p className="d3">
+          <p className="justo">
             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
             augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque
             elit erat a magna. Donec quis erat at libero ultrices mollis. In hac
@@ -27,8 +26,8 @@ function Blog() {
             hendrerit venenatis libero. Donec consectetur faucibus ipsum id
             gravida.
           </p>
+          <button className="learn1">Learn More</button>
         </div>
-        <button className="learn">Learn More</button>
       </div>
     </>
   );
