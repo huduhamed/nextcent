@@ -7,7 +7,7 @@ import { Members, Clubs, Event, Payments } from "..";
 function Community() {
   return (
     <>
-      <div className="achievement">
+      <div className="achievement" id="community">
         <div className="local">
           <p className="local-p">
             Helping a local{" "}

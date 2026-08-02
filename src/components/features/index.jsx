@@ -23,10 +23,8 @@ import {
 
 function Features() {
   return (
-    <div className="main">
-      <h2 className="h22" id="features">
-        Our Clients
-      </h2>
+    <div className="main" id="features">
+      <h2 className="h22">Our Clients</h2>
       <p className="desc">
         We have been working with some fortune 500+ clients
       </p>

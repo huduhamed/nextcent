@@ -6,73 +6,92 @@ import { Link } from "react-router-dom";
 import headImage from "../../images/header.png";
 import "./styles.css";
 
-export default function Navbar() {
+function Navbar({ formRef }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeMenu, setActiveMenu] = useState(null);
+
+  const handleClick = (e, id) => {
+    e.preventDefault();
+
+    if (id === "register" && formRef?.current) {
+      formRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+      return;
+    }
+
+    scrollToSection(id);
+  };
+
+  const scrollToSection = (id) => {
+    const sectionId = document.getElementById(id);
+    if (sectionId) {
+      const headerOffset = 50;
+      const elementPosition =
+        sectionId.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <div className="header">
-      <h2 className="head">
-        <img src={headImage} alt="nav-logo" />
-        Nextcent
-      </h2>
+      <a href="/" aria-label="Nextcent">
+        <h2 className="head">
+          <img src={headImage} alt="nav-logo" />
+          Nextcent
+        </h2>
+      </a>
 
       <button className="menu-btn" onClick={() => setMenuOpen(!menuOpen)}>
         ☰
       </button>
 
-      <nav className={`navbar ${menuOpen ? "active" : ""}`}>
-        <Link
-          to="/"
-          onClick={() => setActiveMenu(activeMenu === "home" ? null : "home")}
-        >
-          Home
-        </Link>
+      <ul className="navbar">
+        <li onClick={(e) => handleClick(e, "home")} href="#home">
+          <a href="/home">Home</a>
+        </li>
 
-        <Link
-          to="#features"
-          onClick={() =>
-            setActiveMenu(activeMenu === "features" ? null : "features")
-          }
-        >
-          Features
-        </Link>
+        <li>
+          <a onClick={(e) => handleClick(e, "features")} href="#features">
+            Features
+          </a>
+        </li>
 
-        <Link
-          to="/community"
-          onClick={() =>
-            setActiveMenu(activeMenu === "community" ? null : "community")
-          }
-        >
-          Community
-        </Link>
+        <li>
+          <a onClick={(e) => handleClick(e, "community")} href="#community">
+            Community
+          </a>
+        </li>
 
-        <Link
-          to="/blog"
-          onClick={() => setActiveMenu(activeMenu === "blog" ? null : "blog")}
-        >
-          Blog
-        </Link>
+        <li>
+          <a onClick={(e) => handleClick(e, "blog")} href="#blog">
+            Blog
+          </a>
+        </li>
 
-        <Link
-          to="/pricing"
-          onClick={() =>
-            setActiveMenu(activeMenu === "pricing" ? null : "pricing")
-          }
-        >
-          Pricing
-        </Link>
+        <li>
+          <a onClick={(e) => handleClick(e, "pricing")} href="#pricing">
+            Pricing
+          </a>
+        </li>
 
-        <Link
-          to="/register"
-          className="register"
-          onClick={() =>
-            setActiveMenu(activeMenu === "register" ? null : "register")
-          }
-        >
-          Register Now →
-        </Link>
-      </nav>
+        <li>
+          <a
+            onClick={(e) => handleClick(e, "register")}
+            href="#register"
+            className="register"
+          >
+            Register Now →
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
+
+export default Navbar;
