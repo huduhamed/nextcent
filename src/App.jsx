@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 
 //internal import
 import {
@@ -13,15 +13,17 @@ import {
 } from "./components";
 import "./global.css";
 function App() {
+  const formRef = useRef(null);
+
   return (
     <>
-      <Navbar />
-      <Home />
+      <Navbar formRef={formRef} />
+      <Home formRef={formRef} />
       <Features />
       <Community />
       <Blog />
       <Pricing />
-      <Register />
+      <Register formRef={formRef} />
       <Footer />
     </>
   );

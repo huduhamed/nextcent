@@ -7,7 +7,7 @@ import { Pana } from "..";
 function Blog() {
   return (
     <>
-      <div className="calendar">
+      <div className="calendar" id="blog">
         <img src={Pana} alt="a woman touching computer screen" />
 
         <div className="cal">

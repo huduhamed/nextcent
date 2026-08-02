@@ -1,20 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./styles.css";
 
 //internal import
-import { Illustration, Ellipse5, Ellipse6, Ellipse7 } from "..";
+import { Illustration, Ellipse5, Ellipse6, Ellipse7, Register } from "..";
 
-function Home() {
+function Home({ formRef }) {
+  const scrollToForm = () => {
+    formRef?.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
-    <div className="hero">
-      <p className="section-head">
+    <div className="hero" id="home">
+      <h1 className="section-head">
         Lessons and insights <span className="highlight">from 8 years</span>
-      </p>
+      </h1>
 
       <p className="description">
         Where to grow your business as a photographer: site or social media?
       </p>
-      <button className="registered">Register</button>
+      <button className="registered" onClick={scrollToForm}>
+        Register
+      </button>
 
       <div className="dot">
         <button className="dot-btn">

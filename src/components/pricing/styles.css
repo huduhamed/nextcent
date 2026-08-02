@@ -17,7 +17,6 @@
 .pricing img {
   width: 226.91px;
   height: 226.91px;
-  opacity: 1;
   border-radius: 5.57px;
   margin-left: 190px;
   text-align: center;
@@ -25,30 +24,24 @@
 
 .content {
   font-weight: 500;
-  font-style: normal;
   font-size: 11.14px;
   line-height: 16.71px;
-  letter-spacing: 0;
   vertical-align: middle;
   width: 520.65px;
   height: 117px;
-  opacity: 0.7;
   padding-left: 150px;
   margin-top: -110px;
 }
 
 .tim {
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  letter-spacing: 0%;
   vertical-align: middle;
   width: 520.65px;
   height: 20;
   color: var(--green-primary);
   font-family: var(--font-primary);
-  opacity: 1;
   margin-top: -10px;
 }
 
@@ -57,15 +50,11 @@
   font-family: var(--font-primary);
   color: var(--font-gray);
   font-weight: 400;
-  font-style: Regular;
   font-size: 14.14px;
   line-height: 16.71px;
-  letter-spacing: 0%;
   vertical-align: middle;
   width: 520.65px;
-  height: 17;
-  opacity: 1;
-  color: #89939e;
+  height: 17px;
 }
 
 .frame10 {
@@ -88,23 +77,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  opacity: 1;
   text-align: center;
   margin-top: 30px;
 }
 
 .nex {
   display: flex;
-  opacity: 1;
   text-align: center;
   margin-top: -10px;
   font-family: var(--font-primary);
   color: var(--font-gray);
   font-weight: 400;
-  font-style: Regular;
   font-size: 11.14px;
   line-height: 16.71px;
-  letter-spacing: 0%;
   width: 437.13px;
   height: 51;
 }
@@ -119,15 +104,11 @@
   font-family: var(--font-primary);
   color: var(--font-head);
   font-weight: 600;
-  font-style: normal;
   font-size: 25.06px;
-
   line-height: 30.63px;
-  letter-spacing: 0%;
   text-align: center;
   width: 772.63px;
   height: 31px;
-  opacity: 1;
 }
 
 #images-container {
@@ -146,7 +127,6 @@
 .frame15 img {
   width: 256.15px;
   height: 199.07px;
-  opacity: 1;
   border-radius: 5.57px;
 }
 
@@ -171,10 +151,8 @@
   height: 59px;
   font-weight: 600px;
   font-family: var(--font-primary);
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  opacity: 0.5;
 }
 
 .background-text a {
@@ -182,116 +160,24 @@
   color: var(--green-primary);
   font-family: var(--font-primary);
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  letter-spacing: 0%;
   vertical-align: middle;
   width: 69;
   height: 20;
-  opacity: 0.6;
 }
 
 .customers {
   font-family: var(--font-primary);
   color: var(--green-primary);
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   white-space: nowrap;
   line-height: 19.49px;
-  letter-spacing: 0%;
   vertical-align: middle;
   width: 130.86px;
   height: 20;
-  opacity: 1;
 }
-
-/*
-.card2 {
-  font-weight: 600;
-  font-style: normal;
-  font-size: 13.92px;
-  line-height: 19.49px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 220px;
-  height: 130px;
-  opacity: 0.6;
-  background-color: var(--background-gray);
-  border: none;
-  border-radius: 3px;
-  margin-bottom: 30px;
-  margin-left: 515px;
-  margin-top: -70px;
-}
-
-.btn1 {
-  font-weight: 600;
-  font-style: normal;
-  font-size: 13.92px;
-  line-height: 19.49px;
-  letter-spacing: 0;
-  vertical-align: middle;
-  margin-left: 250px;
-  width: 69px;
-  height: 30px;
-
-  color: var(--green-primary);
-  background-color: transparent;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin-top: -95px;
-  margin-left: 590px;
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-
-.card3 {
-  font-weight: 600;
-  font-style: normal;
-  font-size: 13.92px;
-  line-height: 19.49px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 220px;
-  height: 130px;
-  opacity: 0.6;
-  background-color: var(--background-gray);
-  border: none;
-  border-radius: 3px;
-  margin-bottom: 30px;
-  right: -865px;
-  margin-top: -300px;
-  position: relative;
-}
-
-.btn2 {
-  font-weight: 600;
-  font-style: normal;
-  font-size: 13.92px;
-  line-height: 19.49px;
-  letter-spacing: 0;
-  vertical-align: middle;
-  margin-left: 250px;
-  width: 69px;
-  height: 30px;
-  color: var(--green-primary);
-  background-color: transparent;
-  border: none;
-  left: 80px;
-  padding: 0;
-  white-space: nowrap;
-  cursor: pointer;
-  margin-top: -170px;
-  margin-right: 350px;
-}
-*/
 
 .lib {
   display: flex;
@@ -306,22 +192,17 @@
 .pell {
   font-family: var(--font-primary);
   font-weight: 600;
-  font-style: normal;
   font-size: 44.55px;
-
   line-height: 52.9px;
-  letter-spacing: 0%;
   text-align: center;
   width: 617.41px;
   height: 106px;
   color: #263238;
-  opacity: 1;
 }
 
 .btn3 {
   width: 124.25px;
   height: 36.48px;
-  opacity: 0.8;
   border-radius: 2.78px;
   gap: 5.57px;
   padding: 9.74px 22.27px;
@@ -332,5 +213,4 @@
   cursor: pointer;
   white-space: nowrap;
   display: flex;
-  opacity: 0.8;
 }

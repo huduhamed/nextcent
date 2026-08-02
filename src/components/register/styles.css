@@ -14,30 +14,32 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  width: 30vw;
+  align-items: center;
+}
+
+fieldset legend {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .form label {
   display: flex;
   flex-direction: column;
   font-weight: 500;
-}
-
-input {
-  padding: 8px;
-  margin-top: 5px;
-}
-
-.form {
-  display: flex;
-
   align-items: center;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .form input {
   width: 250px;
   padding: 10px;
+  align-items: center;
 }
 
 .form button {
@@ -55,6 +57,7 @@ input {
 
 .gender {
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 8px;
 }
@@ -71,9 +74,9 @@ input {
 .gender input {
   margin: 0;
   order: -1;
-  margin-left: -80px;
+  margin-left: 100px;
 }
 
 .gender p {
-  margin: 0;
+  margin-top: -42px;
 }

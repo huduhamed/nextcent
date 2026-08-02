@@ -72,60 +72,45 @@
 .company h4 {
   margin-bottom: 10px;
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  letter-spacing: 0%;
   width: 111.37px;
   height: 20px;
-  opacity: 1;
 }
 
 .company p {
   margin: 4px 0;
   font-weight: 400;
-  font-style: Regular;
   font-size: 9.74px;
   line-height: 13.92px;
-  letter-spacing: 0%;
   width: 111.37px;
   height: 14;
-  opacity: 1;
 }
 
 .support h4 {
   margin-bottom: 10px;
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  letter-spacing: 0%;
   width: 111.37px;
   height: 20px;
-  opacity: 1;
 }
 
 .support p {
   margin: 4px 0;
   font-weight: 400;
-  font-style: Regular;
   font-size: 9.74px;
   line-height: 13.92px;
-  letter-spacing: 0%;
   width: 111.37px;
   height: 14px;
-  opacity: 1;
 }
 
 .stay h4 {
   font-weight: 600;
-  font-style: normal;
   font-size: 13.92px;
   line-height: 19.49px;
-  letter-spacing: 0%;
   width: 111.37px;
   height: 20px;
-  opacity: 1;
 }
 
 /*input container*/
@@ -137,15 +122,12 @@
 
 .input-container input {
   font-weight: 400;
-  font-style: normal;
   font-size: 9.74px;
   line-height: 13.92px;
-  letter-spacing: 0%;
   background-color: gray;
   width: 177.49px;
   height: 27.84px;
   color: #fff;
-  opacity: 1;
   border-radius: 5.57px;
 }
 
@@ -163,7 +145,5 @@
   font-weight: 400;
   font-size: 9.74px;
   line-height: 13.92px;
-  letter-spacing: 0;
   color: #fff;
-  opacity: 1;
 }

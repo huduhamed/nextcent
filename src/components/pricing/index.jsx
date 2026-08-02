@@ -19,7 +19,7 @@ import {
 function Pricing() {
   return (
     <>
-      <div className="pricing-container">
+      <div className="pricing-container" id="pricing">
         <div className="pricing">
           <img src={Tesla} alt="tesla logo" />
 
@@ -43,7 +43,7 @@ function Pricing() {
         </div>
 
         <div className="frame10">
-          <img src={Vector} alt="logo" className="vec1" />
+          <img src={Vector} alt="logo" />
           <img src={Logo} alt="logo" />
           <img src={Logo1} alt="logo" />
           <img src={Logo2} alt="logo" />

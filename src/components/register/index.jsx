@@ -3,7 +3,7 @@ import React, { useState } from "react";
 //internal import
 import "./styles.css";
 
-function Register() {
+function Register({ formRef }) {
   const [submit, setSubmit] = useState(false);
 
   const handleSubmit = () => {
@@ -14,7 +14,7 @@ function Register() {
 
   return (
     <>
-      <div className="register-form">
+      <div className="register-form" id="register" ref={formRef}>
         <h2>Kindly fill out this form to get registered on our site.</h2>
 
         <form className="form">
@@ -53,27 +53,23 @@ function Register() {
             <div className="gender">
               <p>Gender:</p>
 
-              <label htmlFor="male">
-                Male
-                <input
-                  type="radio"
-                  id="male"
-                  name="gender"
-                  value="Male"
-                  required
-                />
-              </label>
+              <label htmlFor="male">Male</label>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="Male"
+                required
+              />
 
-              <label htmlFor="female">
-                Female
-                <input
-                  type="radio"
-                  id="female"
-                  name="gender"
-                  value="Female"
-                  required
-                />
-              </label>
+              <label htmlFor="female">Female</label>
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="Female"
+                required
+              />
             </div>
 
             <label htmlFor="phone">
