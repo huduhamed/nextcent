@@ -1,80 +1,90 @@
 .register-form {
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
-  color: var(--font-head);
+	display: flex;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	color: var(--font-head);
 }
 
 .register-form h2 {
-  color: var(--font-head);
+	color: var(--font-head);
 }
 
 fieldset {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 30vw;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 30vw;
+	align-items: center;
 }
 
 fieldset legend {
-  text-align: center;
-  margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin: 14px 8px;
 }
 
 .form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .form label {
-  display: flex;
-  flex-direction: row;
-  font-weight: 600;
-  align-items: center;
-  gap: 10px;
-  white-space: nowrap;
+	align-items: flex-start;
+	margin: 3px 0;
 }
 
 .form input {
-  width: 250px;
-  padding: 10px;
+	width: 250px;
+	height: 25px;
+	padding: 8px;
+	border: 2px solid var(--green-primary);
 }
 
 .form button {
-  width: 100px;
-  padding: 10px;
-  cursor: pointer;
-  font-weight: 600;
-  background-color: var(--green-primary);
-  color: white;
-  border: none;
-  border-radius: 2.78px;
+	width: 100%;
+	max-width: 320px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: var(--green-primary);
+	color: white;
+	border: none;
+	border-radius: 2.78px;
+	margin: 8px auto;
 }
 
-/*gender div*/
+.gender-options {
+	display: flex;
+	flex-direction: column;
+}
 
-.gender {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.gender-selection section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	max-width: 280px;
 }
 
 .gender p {
-  margin: 0;
-  font-weight: 600;
+	margin: 0;
+	font-weight: 600;
 }
 
 .gender label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 150px; /* Adjust as needed */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 150px; /* Adjust as needed */
 }
 
 .gender input {
-  margin: 0;
+	margin: 0;
 }
