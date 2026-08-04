@@ -53,23 +53,27 @@ function Register({ formRef }) {
             <div className="gender">
               <p>Gender:</p>
 
-              <label htmlFor="male">Male</label>
-              <input
-                type="radio"
-                id="male"
-                name="gender"
-                value="Male"
-                required
-              />
+              <label htmlFor="male">
+                <span>Male</span>
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="Male"
+                  required
+                />
+              </label>
 
-              <label htmlFor="female">Female</label>
-              <input
-                type="radio"
-                id="female"
-                name="gender"
-                value="Female"
-                required
-              />
+              <label htmlFor="female">
+                <span>Female</span>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="Female"
+                  required
+                />
+              </label>
             </div>
 
             <label htmlFor="phone">
@@ -92,7 +96,7 @@ function Register({ formRef }) {
               <input
                 type="email"
                 id="email"
-                placeholder="e.g. danishitu@gmail.com"
+                placeholder="example@gmail.com"
                 required
               />
             </label>

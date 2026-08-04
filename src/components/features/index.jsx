@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
 
 //internal import
 import "./styles.css";
@@ -29,15 +33,74 @@ function Features() {
         We have been working with some fortune 500+ clients
       </p>
 
-      <div className="logo-image">
-        <img src={Vector} alt="vector-logo" />
-        <img src={Logo} alt="logo" />
-        <img src={Logo1} alt="logo" />
-        <img src={Logo2} alt="logo" />
-        <img src={Logo3} alt="logo" />
-        <img src={Logo4} alt="logo" />
-        <img src={Logo5} alt="logo" />
-      </div>
+      <Swiper
+        className="logo-carousel"
+        modules={[Autoplay]}
+        slidesPerView={4}
+        spaceBetween={30}
+        loop={true}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+        }}
+        speed={6000}
+        allowTouchMove={false}
+        breakpoints={{
+          320: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
+      >
+        <SwiperSlide>
+          <img src={Vector} alt="vector-logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo} alt="logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo1} alt="logo1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo2} alt="logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo3} alt="logo3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo4} alt="logo4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo5} alt="logo5" />
+        </SwiperSlide>
+        /*Duplicate the slides to create a continuous loop effect */
+        <SwiperSlide>
+          <img src={Vector} alt="vector-logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo} alt="logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo1} alt="logo1" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo2} alt="logo" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo3} alt="logo3" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo4} alt="logo4" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Logo5} alt="logo5" />
+        </SwiperSlide>
+      </Swiper>
 
       <h2 className="manage-entire">
         Manage your entire community
