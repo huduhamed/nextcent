@@ -1,0 +1,66 @@
+@use '../../breakpoints' as *;
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px;
+	margin: 8px auto;
+	color: var(--gray-head);
+
+	@include tablet {
+		display: flex;
+		gap: 16px;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.logo-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+}
+
+.navbar li {
+	list-style-type: none;
+}
+
+.header a {
+	color: var(--gray-head);
+	text-decoration: none;
+}
+
+.register {
+	background-color: var(--green-primary);
+	display: flex;
+	justify-content: center;
+	white-space: nowrap;
+	padding: 10px 14px;
+	border-radius: 5px;
+}
+
+.register:hover {
+	background-color: #388e3c;
+}
+
+.register a {
+	color: #fff;
+}
+
+.head img {
+	padding-right: 5px;
+}

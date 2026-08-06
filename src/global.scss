@@ -1,0 +1,124 @@
+@use './breakpoints' as *;
+@import url('https://googleapis.com');
+
+.container-footer {
+	display: flex;
+	padding: 40px 60px;
+	background-color: #263238;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.left-footer {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+
+.logo-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 16px 0;
+}
+
+.logo-footer h2 {
+	font-size: 35px;
+}
+
+.logo-footer img {
+	margin-right: 8px;
+	width: 35px;
+	height: 35px;
+}
+
+.footer-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 10px auto;
+}
+
+.footer-text p:first-child {
+	margin: 0;
+}
+
+.next img {
+	width: 30.11px;
+	height: 20.65px;
+}
+
+.socials {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 28px;
+}
+
+.socials img {
+	width: 30px;
+	height: 30px;
+}
+
+.socials a:hover {
+	transition: var(--green-primary) 0.3s ease-out;
+	background-color: var(--green-primary);
+	border-radius: 12px;
+	width: 30px;
+	height: 30px;
+}
+
+.links-container {
+	display: flex;
+	gap: 60px;
+	color: #fff;
+}
+
+.input-container {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: relative;
+}
+
+.input-container input {
+	width: 180px;
+	height: 30px;
+	border-radius: 8px;
+	padding: 5px 10px;
+	background-color: #717171;
+}
+
+.input-container img {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+}
+
+.input-container input::placeholder {
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+:root {
+	--green-primary: #4caf4f;
+	--background-gray: #f5f7fa;
+	--font-gray: #717171;
+	--font-head: #4d4d4d;
+}
+
+body {
+	font-family: 'inter', sans-serif;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 18px;
+	box-sizing: border-box;
+
+	@include tablet {
+		max-width: 768px;
+	}
+}
