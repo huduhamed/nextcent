@@ -1,32 +1,24 @@
-import React, { useRef } from "react";
+import { useRef } from 'react';
 
 //internal import
-import {
-  Home,
-  Features,
-  Community,
-  Blog,
-  Pricing,
-  Register,
-  Navbar,
-  Footer,
-} from "./components";
-import "./global.css";
-function App() {
-  const formRef = useRef(null);
+import { Home, Features, Community, Blog, Pricing, Register, Navbar, Footer } from './components';
+import './global.scss';
 
-  return (
-    <>
-      <Navbar formRef={formRef} />
-      <Home formRef={formRef} />
-      <Features />
-      <Community />
-      <Blog />
-      <Pricing />
-      <Register formRef={formRef} />
-      <Footer />
-    </>
-  );
+function App() {
+	const formRef = useRef(null);
+
+	return (
+		<>
+			<Navbar formRef={formRef} />
+			<Home formRef={formRef} />
+			<Features />
+			<Community />
+			<Blog />
+			<Pricing />
+			<Register formRef={formRef} />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
